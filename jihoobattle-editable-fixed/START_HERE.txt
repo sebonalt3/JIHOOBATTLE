@@ -6,8 +6,8 @@
 3. 같은 폴더에 있는 play-editable.html을 엽니다. 이미 게임을 열었다면 새로고침합니다.
 
 Windows에서 파일 확장자를 숨겼다면 3번 파일은 'play-editable'로 보입니다.
-저장소의 원본 파일명은 '지후배틀_2_3_4.html'이지만 ZIP에서는 Windows에서도
-잘 보이도록 영문 이름을 사용합니다. 게임 내용은 동일합니다.
+최신 게임 파일은 저장소 루트의 index.html입니다. 이 폴더의 play-editable.html은
+이전 버전의 수정용 사본이며 최신 게임 내용과 다릅니다.
 
 주의: 'jihoobattle.html'이나 'jihoobattle (1).html'은 단일 실행용 게임입니다.
 그 파일은 캐릭터 설정이 안에 들어 있으므로, 옆의 character-balance.js를 바꿔도

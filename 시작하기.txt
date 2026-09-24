@@ -1,14 +1,10 @@
-밸런스 수정용 게임을 여는 방법
+지후배틀 시작하기
 
-1. 수정용 ZIP(jihoobattle-editable.zip)을 압축 풉니다.
-   portraits 폴더도 HTML과 같은 폴더 안에 그대로 두세요.
-2. character-balance.js를 메모장으로 열어 수치를 바꾸고 Ctrl+S로 저장합니다.
-3. 같은 폴더에 있는 play-editable.html을 엽니다. 이미 게임을 열었다면 새로고침합니다.
+웹에서 플레이: https://sebonalt3.github.io/JIHOOBATTLE/
+저장소의 index.html이 게임 첫 화면입니다.
 
-Windows에서 파일 확장자를 숨겼다면 3번 파일은 'play-editable'로 보입니다.
-저장소의 원본 파일명은 '지후배틀_2_3_4.html'이지만 ZIP에서는 Windows에서도
-잘 보이도록 영문 이름을 사용합니다. 게임 내용은 동일합니다.
+초상화와 수치가 표시되려면 index.html, character-balance.js, portraits 폴더를
+저장소 루트에 함께 두어야 합니다. GitHub Pages에는 이 세 항목이 같이 게시됩니다.
 
-주의: HTML만 따로 옮기면 portraits 폴더의 그림이 나타나지 않습니다.
-'jihoobattle.html'은 캐릭터 설정이 안에 있으므로, character-balance.js를
-수정하려면 수정용 ZIP 안의 play-editable.html을 사용하세요.
+현재 버전: 2.3.5. 버전명과 인게임 패치노트는 릴리스 시 함께 갱신합니다.
+이전 수정용 사본은 jihoobattle-editable-fixed 폴더에 보관되어 있습니다.
