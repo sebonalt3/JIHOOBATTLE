@@ -33,11 +33,11 @@ const CHARACTER_BALANCE = {
     hp: 1000, atk: 1500, atkSpeed: 7.0, range: 675, speed: 70
   },
   medic: {
-    hp: 1750, atk: 0, atkSpeed: 3.0, range: 135, speed: 100,
+    hp: 1750, atk: 0, atkSpeed: 3.0, range: 180, speed: 100,
     isHealer: true,
-    fanAngleDeg: 80,
-    fanRadius: 135,
-    healFraction: 0.25
+    fanAngleDeg: 160,
+    fanRadius: 180,
+    healAmount: 1200
   },
   awaken: {
     hp: 1250, atk: 50, atkSpeed: 1.0, range: 72, speed: 0.1,
@@ -241,7 +241,8 @@ const CHARACTER_BALANCE = {
   },
   levelup: {
     hp: 3400, atk: 450, atkSpeed: 1, range: 45, speed: 72,
-    isMelee: true
+    isMelee: true,
+    formHealFraction: 0.35
   },
   reaper: {
     hp: 4444, atk: 1666, atkSpeed: 5, range: 90, speed: 76.5,
@@ -266,15 +267,15 @@ const CHARACTER_BALANCE = {
     noAttack: true, explosionRadius: 135, explosionDelay: 0.8, explosionDamage: 2000
   },
   dragon: {
-    hp: 6200, atk: 400, atkSpeed: 0.8, range: 90, speed: 90,
-    attackRadius: 67.5, transformChance: 0.12, flightDistance: 450,
+    hp: 4800, atk: 400, atkSpeed: 0.8, range: 135, speed: 90,
+    transformChance: 0.12, flightDistance: 450,
     flightDuration: 1.5, fireTrailDuration: 5, fireTrailInterval: 0.5, fireTrailDamage: 250,
     landingRadius: 90, landingDamage: 300,
     landingDr: 0.20, landingDrDuration: 5
   },
   meteor: {
-    hp: 1800, atk: 1600, atkSpeed: 6, range: 270, speed: 90,
-    meteorDelay: 2, meteorRadiusMultiplier: 2, meteorBurnDuration: 5,
+    hp: 1800, atk: 800, atkSpeed: 5, range: 270, speed: 90,
+    meteorDelay: 3, meteorRadiusMultiplier: 2, meteorBurnDuration: 5,
     meteorBurnDps: 100, meteorKnockback: 120
   },
   blizzard: {
@@ -284,6 +285,6 @@ const CHARACTER_BALANCE = {
   },
   beam: {
     hp: 1500, atk: 100, atkSpeed: 0.2, range: 382.5, speed: 90,
-    beamWarmup: 3, beamInterval: 0.2, beamRampInterval: 1, beamRampDamage: 20
+    beamWarmup: 2, beamInterval: 0.2, beamRampInterval: 1, beamRampDamage: 20
   },
 };
