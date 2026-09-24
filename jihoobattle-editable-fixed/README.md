@@ -1,12 +1,14 @@
 # 지후배틀: 밸런스 조정 안내
 
+이 폴더는 이전에 업로드한 게임 사본입니다. 최신 게임은 저장소 루트의 `지후배틀_2_3_4.html`을 여세요. 이 사본을 열 때는 상위 폴더의 `portraits/`를 함께 유지해야 합니다 (`../portraits/`). 이 폴더만 따로 내려받으면 초상화가 보이지 않습니다.
+
 ## 먼저 확인: 어떤 HTML을 열어야 하나요?
 
 **밸런스를 수정하려면 수정용 ZIP에서 압축을 푼 `play-editable.html`을 여세요.** 저장소 안의 같은 게임 원본은 `지후배틀_2_3_4.html`입니다. ZIP 안에서는 Windows에서 한글 이름이 보이지 않는 문제를 피하기 위해 영문 이름을 사용합니다. `jihoobattle.html` 또는 다운로드 때문에 이름이 바뀐 `jihoobattle (1).html`은 설정을 안에 넣은 **단일 실행용 파일**입니다. 이 파일 옆에 `character-balance.js`를 놓아도 읽지 않습니다.
 
 Windows 탐색기에서 확장자를 숨기면 수정용 HTML은 **`play-editable`**로 보입니다. `character-balance`를 메모장으로 열어 숫자를 바꾸고 **Ctrl+S로 저장**한 다음, 같은 폴더의 `play-editable`을 열거나 새로고침하면 됩니다. 파일 이름을 직접 바꿀 필요는 없습니다.
 
-`play-editable.html`(저장소에서는 `지후배틀_2_3_4.html`), `character-balance.js`, `balance-baseline.js`, `balance-version.js`를 **같은 폴더에** 두고 HTML을 브라우저로 엽니다. 서버나 빌드 과정은 필요하지 않습니다. 밸런스를 바꾸려면 **`character-balance.js`만** 열어보세요. 캐릭터 ID(`fire`, `medic` 등)를 찾아 숫자를 고친 뒤 저장하고 브라우저를 새로고침하면 적용됩니다. HTML만 따로 복사하면 설정 파일을 읽지 못합니다.
+`play-editable.html`, `character-balance.js`, `balance-baseline.js`, `balance-version.js`를 같은 폴더에 두고 상위 폴더의 `portraits/`도 유지한 채 HTML을 브라우저로 엽니다. 서버나 빌드 과정은 필요하지 않습니다. 밸런스를 바꾸려면 **`character-balance.js`만** 열어보세요. 캐릭터 ID(`fire`, `medic` 등)를 찾아 숫자를 고친 뒤 저장하고 브라우저를 새로고침하면 적용됩니다. HTML만 따로 복사하면 설정과 초상화를 읽지 못합니다.
 
 ## 자동 버전과 패치노트
 
